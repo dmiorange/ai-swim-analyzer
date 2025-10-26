@@ -13,15 +13,14 @@ from timer_utils import (
     format_time
 )
 
-# from audio_detector import detect_beep  # will be added Week 5
-# from motion_detector import detect_movement  # will be added Week 5
+record_time = set_record_time()
+beep_time = None
+movement_time = None
+finish_time = None
+reaction_time = None
+elapsed_time = None
+race_duration = None
 
-
-# --- Notes for future reference ---
-# record_time = when the camera starts
-# beep_time = when the start beep occurs (seconds into video)
-# movement_time = when motion starts (seconds into video)
-# finish_time = when swimmer finishes (seconds into video)
 
 
 def main():
